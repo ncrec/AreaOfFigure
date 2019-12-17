@@ -21,7 +21,7 @@ namespace AreaOfFigureTests
         public void CircleCalculatingTest()
         {
             var expected = new Circle(5).GetArea();
-            Assert.AreEqual(expected, 25*Math.PI+1);
+            Assert.AreEqual(expected, 25*Math.PI);
         }
     }
 }
